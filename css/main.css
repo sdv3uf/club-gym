@@ -1,0 +1,260 @@
+h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h2 {
+    color: #232D4B;
+    padding: 10px 0 15px 0;
+    font-family: 'Boogaloo', serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 a {
+    color: #232D4B;
+    text-decoration-line: underline;
+}
+
+h2 a:hover {
+    color: white;
+    background-color: #232D4B;
+}
+
+h3 {
+    color: white;
+    padding: 10px 0 0px 0;
+    font-family: 'Boogaloo', serif;
+    font-size: 40px;
+    text-align: center;   
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Boogaloo', serif;
+    font-size: 50px;
+    padding: 75px 0 0 0;
+    color: black;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Boogaloo', sans-serif;
+    color: #232D4B;
+    font-size: 50px;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Boogaloo', sans-serif;
+    font-size: 35px;
+}
+
+h7 {
+    text-align: center;
+    font-family: 'Boogaloo', sans-serif;
+    font-size: 30px;
+}
+
+.desc {
+
+    color: #232D4B;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 25px;
+    padding: 2px 30px 0px 30px;
+}
+
+.contactsub {
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.contactsub a:hover {
+    color: #232D4B;
+    background-color: white;
+}
+
+.email {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.square1 {
+    align-content: center;
+    display: block;
+    margin: auto;
+    padding: 0 30px 30px 30px;
+    max-width: 615px;
+    height: 350px;
+    background-color: white;
+}
+
+.square2 {
+    align-content: center;
+    display: block;
+    margin: 40px auto 50px auto;
+    padding: 0 30px 15px 30px;
+    max-width: 615px;
+    height: 360px;
+    background-color: #E57200;
+}
+
+.square3 {
+    align-content: center;
+    display: block;
+    margin: 40px auto;
+    padding: 0 30px 15px 30px;
+    max-width: 615px;
+    height: 350px;
+    background-color: #232D4B;
+}
+
+.diff {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    position: bottom;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-custom {
+    background-color: white
+    color: #232D4B;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-custom a {
+    color: #232D4B;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background-color: #E57200;
+    color: white;
+}
+
+.navbar-header .navbar-brand {
+    height: 70px;
+}
+
+.container-fluid .nav>li>a{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-fluid .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-toggle {
+    border: 1 px solid white;
+}
+
+.carousel-control {
+background-color: transparent;
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel {
+    max-width:615px;
+    max-height:461px;
+    padding: 25px 50px; 50px; 50px;
+    margin: 0 auto;
+}
+
+.topcap {
+    top: 0;
+    bottom: auto;
+    background-color: rgba(0,0,0,.5);
+    max-width: 100%;
+    width: 100%;
+    left:0;
+}
+
+.botcap {
+    background-color: rgba(0,0,0,.5);
+    max-width: 100%;
+    width: 100%;
+    left:0;
+}
+
+.meetdesc {
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 25px;
+    padding: 2px 30px 0px 30px;
+}
+
+.meetdesc a {
+    color: white;
+    text-decoration-line: underline;
+    font-weight: 900;
+}
+
+.meetdesc a:hover {
+    color: #E57200;
+    text-decoration-line: underline;
+    font-weight: 900;
+    background-color: white;
+}
+
+.leftcol {
+    background-color: #141E3C;
+}
+
+.rightcol {
+    background-color: #242D4B;
+}
+
+.meetcol {
+    background-color: white;
+}
+
+.insta {
+    display: block;
+    margin: 40px auto;
+    align-content: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactheader {
+    background-color: #F1F1EF;
+    height: 250px;
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+
+img-circle {
+    align-content: center;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #141E3C;
+    position: absolute;
+    bottom: 0 0 0 0;
+}
